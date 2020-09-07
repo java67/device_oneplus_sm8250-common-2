@@ -149,10 +149,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     lineage.livedisplay@2.0-service.oneplus_kona
 
-# Media
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/media_profiles_vendor.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_profiles_vendor.xml
-
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
