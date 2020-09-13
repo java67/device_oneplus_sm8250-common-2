@@ -8,7 +8,9 @@ persist.vendor.bt.a2dp.aac_whitelist=false
 ro.bluetooth.library_name=libbluetooth_qti.so
 
 # Camera
-camera.disable_zsl_mode=true
+persist.vendor.camera.oissr.debug=0
+persist.vendor.camera.privapp.list=com.oneplus.camera
+vendor.camera.aux.packagelist=com.google.android.GoogleCamera,org.codeaurora.snapcam,com.oneplus.camera
 
 # Display
 debug.gralloc.gfx_ubwc_disable=0
