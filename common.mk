@@ -46,6 +46,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.telephony.ims.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/handheld_core_hardware.xml
 
+# OOS Cam Whitelist
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/hiddenapi-package-whitelist-oneplus.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-package-whitelist-oneplus.xml
+
 # A/B
 AB_OTA_UPDATER := true
 
@@ -97,10 +101,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
-
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
 
 # Common init scripts
 PRODUCT_PACKAGES += \
