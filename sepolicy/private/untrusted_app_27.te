@@ -2,3 +2,5 @@ allow untrusted_app_27 persist_camera_prop:file { read open getattr map };
 allow untrusted_app_27 sysfs_battery_supply:lnk_file r_file_perms;
 allow untrusted_app_27 sysfs_battery_supply:dir { search };
 allow untrusted_app_27 sysfs_battery_supply:file r_file_perms;
+allow untrusted_app_27 sysfs_kgsl:file r_file_perms;
+allow untrusted_app_27 adsprpcd_file:dir { search getattr };
