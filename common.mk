@@ -102,7 +102,8 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     OnePlusCamera \
     OnePlusGallery \
-    OnePlusCameraService
+    OnePlusCameraService \
+    CameraPicProcService
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/etc/permissions/privapp-permissions-oem-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-oem-system.xml \
