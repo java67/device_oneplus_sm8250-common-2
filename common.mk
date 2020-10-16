@@ -24,7 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, vendor/oneplus/sm8250-common/sm8250-common-vendor.mk)
 
 # OP Camera
-$(call inherit-product, device/oneplus/opcamera/opcamera-vendor.mk)
+#$(call inherit-product, device/oneplus/opcamera/opcamera-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
