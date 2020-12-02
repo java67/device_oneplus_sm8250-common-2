@@ -16,5 +16,11 @@
     "target_path" : "device/oneplus/common",
     "branch"      : "lineage-18.0",
     "remote"      : "lineage"
+  },
+  {
+    "repository"  : "Chandra-Chaganti/packages_apps_googlecamera",
+    "target_path" : "packages/apps/GoogleCamera",
+    "branch"      : "eleven",
+    "remote"      : "gitlab"
   }
 ]
