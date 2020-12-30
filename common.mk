@@ -127,6 +127,16 @@ PRODUCT_PACKAGES += \
     vendor.oneplus.fingerprint.extension@1.0 \
     vendor.oneplus.hardware.display@1.0
 
+# FOSS Config
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/FOSSConfig.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/FOSSConfig.xml
+
+# Graphics - Foss
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.display.foss=1 \
+    vendor.display.foss.config=1 \
+    vendor.display.foss.config_path=/system/etc/FOSSConfig.xml
+
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hotword-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hotword-hiddenapi-package-whitelist.xml \
