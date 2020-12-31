@@ -137,7 +137,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #OP Cam
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/opcam-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/opcam-hiddenapi-package-whitelist.xml \
-    $(LOCAL_PATH)/configs/privapp-permissions-opcam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-opcam.xml
+    $(LOCAL_PATH)/configs/privapp-permissions-opcam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-opcam.xml \
+    $(LOCAL_PATH)/configs/privapp-permissions-opgal.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-opgal.xml
 
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \

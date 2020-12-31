@@ -12,6 +12,7 @@ system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 -system/priv-app/OnePlusCamera/OnePlusCamera.apk
 -system/priv-app/OnePlusCameraService/OnePlusCameraService.apk
 -system_ext/priv-app/CameraPicProcService/CameraPicProcService.apk
+-system_ext/priv-app/OnePlusGallery/OnePlusGallery.apk
 system/lib/libopcameralib-em.so
 system/lib64/libopcameralib-em.so
 system/etc/permissions/com.oneplus.camera.service.xml
