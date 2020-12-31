@@ -18,12 +18,6 @@
     "remote"      : "lineage"
   },
   {
-    "repository"  : "Chandra-Chaganti/packages_apps_googlecamera",
-    "target_path" : "packages/apps/GoogleCamera",
-    "branch"      : "eleven",
-    "remote"      : "gitlab"
-  },
-  {
     "repository"  : "kdrag0n/proton-clang",
     "target_path" : "prebuilts/clang/host/linux-x86/clang-proton",
     "branch"      : "master",

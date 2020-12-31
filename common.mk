@@ -23,9 +23,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oneplus/sm8250-common/sm8250-common-vendor.mk)
 
-# GoogleCamera
-$(call inherit-product, packages/apps/GoogleCamera/config.mk)
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
@@ -136,6 +133,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.foss=1 \
     vendor.display.foss.config=1 \
     vendor.display.foss.config_path=/system/etc/FOSSConfig.xml
+
+#OP Cam
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/opcam-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/opcam-hiddenapi-package-whitelist.xml \
+    $(LOCAL_PATH)/configs/privapp-permissions-opcam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-opcam.xml
 
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
