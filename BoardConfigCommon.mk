@@ -127,7 +127,7 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_ODM := odm
 
-BOARD_PREBUILT_VENDORINAGE := vendor/oneplus/$(TARGET_DEVICE)/vendor.img
+BOARD_PREBUILT_VENDORIMAGE := vendor/oneplus/$(TARGET_DEVICE)/vendor.img
 BOARD_PREBUILT_ODMIMAGE := vendor/oneplus/$(TARGET_DEVICE)/odm.img
 
 # Recovery
