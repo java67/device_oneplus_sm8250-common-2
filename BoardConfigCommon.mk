@@ -130,11 +130,6 @@ TARGET_COPY_OUT_ODM := odm
 BOARD_PREBUILT_VENDORINAGE := vendor/oneplus/$(TARGET_DEVICE)/vendor.img
 BOARD_PREBUILT_ODMIMAGE := vendor/oneplus/$(TARGET_DEVICE)/odm.img
 
-# tell update_engine to not change dynamic partition table during updates
-# needed since our qti_dynamic_partitions does not include
-# vendor and odm and we also dont want to AB update them
-TARGET_USES_PREBUILT_DYNAMIC_PARTITIONS := true
-
 # Recovery
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
