@@ -8,6 +8,8 @@ ro.camera.res.fmq.size     u:object_r:exported_system_prop:s0 exact int
 ro.camera.req.fmq.size     u:object_r:exported_system_prop:s0 exact int
 persist.camera.bokeh.scale u:object_r:exported_system_prop:s0 exact int
 
+vendor.camera.aux.packageblacklist u:object_r:vendor_camera_prop:s0 exact string
+
 persist.vendor.debug.sensors.ssc_latency u:object_r:sensors_dbg_prop:s0 exact string
 persist.vendor.debug.sensors.stats       u:object_r:sensors_dbg_prop:s0 exact string
 

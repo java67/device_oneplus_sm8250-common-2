@@ -14,7 +14,6 @@ system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 -system_ext/priv-app/CameraPicProcService/CameraPicProcService.apk;PRESIGNED
 -system_ext/priv-app/OnePlusGallery/OnePlusGallery.apk;PRESIGNED
 -system_ext/priv-app/seccamservice/seccamservice.apk;PRESIGNED
--system_ext/priv-app/oneplus-framework-res/oneplus-framework-res.apk;PRESIGNED
 system/lib/libopcameralib-em.so
 system/lib64/libopcameralib-em.so
 system/etc/permissions/com.oneplus.camera.service.xml
@@ -40,8 +39,8 @@ system_ext/lib/vendor.qti.hardware.seccam@1.0.so
 system_ext/lib64/vendor.qti.hardware.seccam@1.0.so
 
 # Alexa
-system/system/etc/permissions/privapp-permissions-com.quicinc.voice.activation.xml
--system/priv-app/QualcommVoiceActivation/QualcommVoiceActivation.apk;PRESIGNED
+#system/system/etc/permissions/privapp-permissions-com.quicinc.voice.activation.xml
+#-system/priv-app/QualcommVoiceActivation/QualcommVoiceActivation.apk;PRESIGNED
 
 # DPM
 framework/tcmclient.jar

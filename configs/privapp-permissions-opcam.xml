@@ -3,8 +3,4 @@
      <privapp-permissions package="com.oneplus.camera">
          <permission name="android.permission.PACKAGE_USAGE_STATS"/>
      </privapp-permissions>
-     <privapp-permissions package="com.quicinc.voice.activation">
-         <permission name="android.permission.CAPTURE_AUDIO_HOTWORD"/>
-         <permission name="android.permission.MANAGE_SOUND_TRIGGER"/>
-     </privapp-permissions>
 </permissions>

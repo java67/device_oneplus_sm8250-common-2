@@ -2,6 +2,4 @@
 <config>
      <hidden-api-whitelisted-app package="com.oneplus.camera" />
      <hidden-api-whitelisted-app package="com.android.gallery" />
-     <allow-in-power-save package="com.quicinc.voice.activation" />
-     <hidden-api-whitelisted-app package="com.quicinc.voice.activation" />
 </config>
