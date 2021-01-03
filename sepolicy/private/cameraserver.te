@@ -1,1 +1,2 @@
 allow cameraserver vendor_persist_camera_prop:file { read getattr map open };
+allow cameraserver exported_system_prop:property_service set;

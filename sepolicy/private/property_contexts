@@ -1,5 +1,5 @@
 sys.display.mode                           u:object_r:config_prop:s0
-ro.camera.res.fmq.size                     u:object_r:vendor_persist_camera_prop:s0 exact int
-ro.camera.req.fmq.size                     u:object_r:vendor_persist_camera_prop:s0 exact int
+ro.camera.res.fmq.size                     u:object_r:exported_system_prop:s0 exact int
+ro.camera.req.fmq.size                     u:object_r:exported_system_prop:s0 exact int
 vendor.camera.aux.packagelist              u:object_r:vendor_persist_camera_prop:s0 exact string
 persist.vendor.camera.privapp.list         u:object_r:vendor_persist_camera_prop:s0 exact string
