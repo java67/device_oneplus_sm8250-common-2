@@ -3,15 +3,12 @@ sys.display.mode           u:object_r:config_prop:s0
 # Camera
 ro.camera.                 u:object_r:vendor_camera_prop:s0 exact int
 vendor.camera.             u:object_r:vendor_camera_prop:s0 exact int
-camera.OPpictureId         u:object_r:vendor_camera_prop:s0 exact int
 ro.camera.res.fmq.size     u:object_r:exported_system_prop:s0 exact int
 ro.camera.req.fmq.size     u:object_r:exported_system_prop:s0 exact int
 persist.camera.bokeh.scale u:object_r:exported_system_prop:s0 exact int
 
-vendor.camera.aux.packagelist            u:object_r:vendor_camera_prop:s0 exact string
-
-persist.vendor.debug.sensors.ssc_latency u:object_r:sensors_dbg_prop:s0 exact string
-persist.vendor.debug.sensors.stats       u:object_r:sensors_dbg_prop:s0 exact string
+vendor.camera.aux.packagelist              u:object_r:vendor_persist_camera_prop:s0 exact string
+persist.vendor.camera.privapp.list         u:object_r:vendor_persist_camera_prop:s0 exact string
 
 vendor.fastrpc.perf.kernel               u:object_r:vendor_adsprpc_prop:s0 exact int
 vendor.fastrpc.perf.adsp                 u:object_r:vendor_adsprpc_prop:s0 exact int
